@@ -3,7 +3,7 @@ object ExamenBigData {
 
 
 //Question 8
-  def fonction1(params:List[String]): Unit ={
+  def fonction1(params:List[String]): List[String] ={
     val maListe = params.filter(f=>f.endsWith("n"))
     return maListe
   }
