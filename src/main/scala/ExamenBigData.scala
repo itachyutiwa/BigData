@@ -29,7 +29,7 @@ object ExamenBigData {
     )
     // je cree d'abord une liste avec les domaines et ensuite je fais une fusion
     val finalListe =  (ListMap(Maliste:_*).keys.toList.map(l => avoirdomaine(l) ) zip ListMap(Maliste:_*).values).toList // funsionner les 2 dans une liste de tuple
-    println(finalListe)
+    println("Ma liste finale :"+finalListe)
   }
 
     def main(args:Array[String]):Unit={
